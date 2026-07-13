@@ -1,0 +1,139 @@
+{
+  "skill_name": "atomic-notes",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Generate notes on The Pygmalion Effect in the vault path ./outputs",
+      "expected_output": "Fresh notes vault on the Pygmalion Effect with real research content",
+      "files": [],
+      "assertions": [
+        {
+          "name": "has_index_file",
+          "type": "path_exists",
+          "target": "the-pygmalion-effect-Index.md"
+        },
+        {
+          "name": "has_moc_files",
+          "type": "paths_exist",
+          "target": [
+            "the-pygmalion-effect/_MOC/foundations.md",
+            "the-pygmalion-effect/_MOC/mechanisms.md",
+            "the-pygmalion-effect/_MOC/applications-implications.md"
+          ]
+        },
+        {
+          "name": "has_glossary_file",
+          "type": "path_exists",
+          "target": "the-pygmalion-effect/_Glossary.md"
+        },
+        {
+          "name": "has_concept_notes",
+          "type": "minimum_file_count",
+          "target": "the-pygmalion-effect/**/*.md",
+          "count": 20
+        },
+        {
+          "name": "no_placeholder_sources",
+          "type": "file_not_contains",
+          "target": "the-pygmalion-effect/**/*.md",
+          "pattern": "https://example.com"
+        },
+        {
+          "name": "no_placeholder_keypoints",
+          "type": "file_not_contains",
+          "target": "the-pygmalion-effect/**/*.md",
+          "pattern": "Point 1**: Explanation."
+        },
+        {
+          "name": "no_placeholder_definitions",
+          "type": "file_not_contains",
+          "target": "the-pygmalion-effect/**/*.md",
+          "pattern": "A concept related to"
+        },
+        {
+          "name": "no_placeholder_connections",
+          "type": "file_not_contains",
+          "target": "the-pygmalion-effect/**/*.md",
+          "pattern": "Connection reason."
+        },
+        {
+          "name": "no_placeholder_glossary",
+          "type": "file_not_contains",
+          "target": "the-pygmalion-effect/_Glossary.md",
+          "pattern": "A concept definition"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Update my Pygmalion Effect notes to include a new concept note on 'Pygmalion in Healthcare' and link it to the existing placebo and nocebo notes.",
+      "expected_output": "Pygmalion in Healthcare note added with real content, placebo note updated with links",
+      "files": [],
+      "assertions": [
+        {
+          "name": "has_new_note",
+          "type": "path_exists",
+          "target": "the-pygmalion-effect/applications-implications/pygmalion-in-healthcare.md"
+        },
+        {
+          "name": "new_note_has_real_content",
+          "type": "file_min_length",
+          "target": "the-pygmalion-effect/applications-implications/pygmalion-in-healthcare.md",
+          "min_bytes": 500
+        },
+        {
+          "name": "has_updated_moc",
+          "type": "file_contains",
+          "target": "the-pygmalion-effect/_MOC/applications-implications.md",
+          "pattern": "[[pygmalion-in-healthcare"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Make notes on Quantum Computing in the vault path ./outputs",
+      "expected_output": "Fresh notes vault on Quantum Computing with real research content",
+      "files": [],
+      "assertions": [
+        {
+          "name": "has_index_file",
+          "type": "path_exists",
+          "target": "quantum-computing-Index.md"
+        },
+        {
+          "name": "has_moc_files",
+          "type": "paths_exist",
+          "target": [
+            "quantum-computing/_MOC/foundations.md",
+            "quantum-computing/_MOC/mechanisms.md",
+            "quantum-computing/_MOC/applications-implications.md"
+          ]
+        },
+        {
+          "name": "has_concept_notes",
+          "type": "minimum_file_count",
+          "target": "quantum-computing/**/*.md",
+          "count": 20
+        },
+        {
+          "name": "no_placeholder_sources",
+          "type": "file_not_contains",
+          "target": "quantum-computing/**/*.md",
+          "pattern": "https://example.com"
+        },
+        {
+          "name": "no_placeholder_keypoints",
+          "type": "file_not_contains",
+          "target": "quantum-computing/**/*.md",
+          "pattern": "Detail 1 about"
+        },
+        {
+          "name": "no_placeholder_definitions",
+          "type": "file_not_contains",
+          "target": "quantum-computing/**/*.md",
+          "pattern": "A precise definition of"
+        }
+      ]
+    }
+  ]
+}

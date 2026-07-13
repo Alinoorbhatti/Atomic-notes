@@ -1,0 +1,6 @@
+.agents/
+.claude/
+.hermes/
+.git/
+*.log
+*.tmp

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "notes-projection": {
+      "source": "Alinoorbhatti/Notes-creation",
+      "ref": "atomic-notes",
+      "sourceType": "github",
+      "skillPath": "notes-projection/SKILL.md",
+      "computedHash": "6d848a37fa45a74c9c67bd46b8112f6fa5d8bf9c755b8ea72c4dcaad895d92af"
+    }
+  }
+}
