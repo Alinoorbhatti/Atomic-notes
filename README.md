@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/logo.jpg" alt="Atomic Notes Logo" width="250" style="border-radius: 20px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1); margin-bottom: 20px;" />
+  <img src="./assets/logo.png" alt="Atomic Notes Logo" width="250" style="border-radius: 20px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1); margin-bottom: 20px;" />
 
   # <span style="background: -webkit-linear-gradient(45deg, #FF4B2B, #FF416C, #FFB75E); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Atomic Notes</span> ⚛️
 
