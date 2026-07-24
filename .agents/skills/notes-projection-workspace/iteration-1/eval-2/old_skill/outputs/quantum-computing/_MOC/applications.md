@@ -1,2 +1,0 @@
-# Applications
-MOC for Applications

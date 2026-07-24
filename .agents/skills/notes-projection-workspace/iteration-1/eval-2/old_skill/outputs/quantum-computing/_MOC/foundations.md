@@ -1,2 +1,0 @@
-# Foundations
-MOC for Foundations

@@ -1,2 +1,0 @@
-# Mechanisms
-MOC for Mechanisms

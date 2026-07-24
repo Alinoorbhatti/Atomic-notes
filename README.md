@@ -60,10 +60,11 @@ The skill triggers automatically when you ask your agent to make notes on a topi
 
 ### Claude Code
 
-Copy the `skills/` directory into your project's `.claude/skills/` folder, or symlink it:
+Clone this repository, then copy the skills into your project:
 
 ```bash
-cp -r skills/ .claude/skills/atomic-notes/
+git clone https://github.com/Alinoorbhatti/Atomic-notes.git
+cp -r Atomic-notes/skills/ your-project/.claude/skills/atomic-notes/
 ```
 
 Then ask Claude to use the `notes-coordinator` skill.
@@ -96,6 +97,7 @@ This lets agents interface with your vault programmatically instead of guessing 
 │   ├── notes-writer/        # Phase 3: Research → Obsidian notes
 │   ├── notes-auditor/       # Phase 4: Link graph validation
 │   └── notes-indexer/       # Phase 5: MOCs, index, glossary
+├── road-mapper/             # Bonus skill: visual learning roadmaps
 ├── scripts/                 # Python auditing tools + MCP server
 ├── evals/                   # Pipeline test suite
 └── assets/                  # Logo and media
