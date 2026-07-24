@@ -1,0 +1,25 @@
+{
+  "expectations": [
+    {
+      "text": "has_new_note",
+      "passed": true,
+      "evidence": "Path the-pygmalion-effect/applications-implications/pygmalion-in-healthcare.md exists: True"
+    },
+    {
+      "text": "has_new_link_in_placebo",
+      "passed": true,
+      "evidence": "File contains pattern: True"
+    },
+    {
+      "text": "has_updated_moc",
+      "passed": false,
+      "evidence": "File contains pattern: False"
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 1,
+    "total": 3,
+    "pass_rate": 0.6666666666666666
+  }
+}

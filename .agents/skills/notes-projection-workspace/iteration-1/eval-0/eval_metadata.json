@@ -1,0 +1,32 @@
+{
+  "eval_id": 0,
+  "eval_name": "fresh-projection-pygmalion",
+  "prompt": "Generate notes on The Pygmalion Effect in the vault path /home/ali/v2/.agents/skills/notes-projection-workspace/iteration-1/eval-0/with_skill/outputs",
+  "assertions": [
+    {
+      "name": "has_index_file",
+      "type": "path_exists",
+      "target": "the-pygmalion-effect-Index.md"
+    },
+    {
+      "name": "has_moc_files",
+      "type": "paths_exist",
+      "target": [
+        "the-pygmalion-effect/_MOC/foundations.md",
+        "the-pygmalion-effect/_MOC/mechanisms.md",
+        "the-pygmalion-effect/_MOC/applications-implications.md"
+      ]
+    },
+    {
+      "name": "has_glossary_file",
+      "type": "path_exists",
+      "target": "the-pygmalion-effect/_Glossary.md"
+    },
+    {
+      "name": "has_concept_notes",
+      "type": "minimum_file_count",
+      "target": "the-pygmalion-effect/**/*.md",
+      "count": 20
+    }
+  ]
+}

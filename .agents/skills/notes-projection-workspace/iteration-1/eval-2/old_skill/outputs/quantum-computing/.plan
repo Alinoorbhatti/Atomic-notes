@@ -1,0 +1,119 @@
+TOPIC: Quantum Computing
+TOPIC_SLUG: quantum-computing
+DESCRIPTION: Quantum computing is a multidisciplinary field comprising aspects of computer science, physics, and mathematics that utilizes quantum mechanics to solve complex problems faster than on classical computers.
+
+BUCKETS:
+1. Foundations — The history and core physical principles underlying quantum information.
+2. Mechanisms — The mathematical operations, error correction, and physical hardware that make quantum computers work.
+3. Applications — The algorithms and real-world problems that quantum computers can efficiently solve.
+
+SUBTOPICS:
+1. History and Pioneers
+   BUCKET: Foundations
+   DESCRIPTION: The origins of quantum computing and early theoretical proposals.
+   ATOMIC_CONCEPTS:
+     - Feynman's Proposal — The initial idea of using quantum systems to simulate quantum physics.
+     - Turing Machine Extension — The generalization of the Church-Turing thesis to quantum mechanics.
+     - Quantum Supremacy Concept — The theoretical threshold where quantum computers outperform classical ones.
+
+2. Core Quantum Principles
+   BUCKET: Foundations
+   DESCRIPTION: The fundamental physical properties enabling quantum computation.
+   ATOMIC_CONCEPTS:
+     - Superposition — The ability of a quantum system to exist in multiple states simultaneously.
+     - Quantum Entanglement — The non-local correlation between separated quantum particles.
+     - Quantum Interference — The ability of probability amplitudes to cancel or reinforce each other.
+
+3. Qubits and States
+   BUCKET: Mechanisms
+   DESCRIPTION: The fundamental unit of quantum information and its representations.
+   ATOMIC_CONCEPTS:
+     - The Qubit — The basic unit of quantum information compared to classical bits.
+     - Bloch Sphere — The geometric representation of the pure state space of a two-level quantum mechanical system.
+     - Mixed States — Statistical ensembles of pure quantum states.
+
+4. Physical Realizations
+   BUCKET: Mechanisms
+   DESCRIPTION: The various hardware approaches to building physical qubits.
+   ATOMIC_CONCEPTS:
+     - Superconducting Qubits — Qubits based on cryogenic macroscopic electrical circuits.
+     - Trapped Ion Qubits — Qubits based on atomic ions suspended by electromagnetic fields.
+     - Topological Qubits — Theoretical qubits protected by topological properties of matter.
+
+5. Quantum Gates and Circuits
+   BUCKET: Mechanisms
+   DESCRIPTION: The building blocks for manipulating quantum information.
+   ATOMIC_CONCEPTS:
+     - Pauli Gates — The fundamental single-qubit rotations (X, Y, Z).
+     - Hadamard Gate — The gate used to create equal superpositions.
+     - CNOT Gate — The fundamental two-qubit entangling gate.
+
+6. Quantum Error Correction
+   BUCKET: Mechanisms
+   DESCRIPTION: Techniques to protect quantum information from decoherence.
+   ATOMIC_CONCEPTS:
+     - Decoherence — The loss of quantum coherence due to environmental interaction.
+     - Shor Code — The first quantum error correcting code.
+     - Surface Codes — Topological error correction codes suited for 2D physical layouts.
+
+7. Quantum Algorithms
+   BUCKET: Applications
+   DESCRIPTION: Key algorithms that demonstrate quantum advantage.
+   ATOMIC_CONCEPTS:
+     - Shor's Algorithm — The polynomial-time quantum algorithm for integer factorization.
+     - Grover's Algorithm — The quantum algorithm for unstructured search providing quadratic speedup.
+     - Quantum Phase Estimation — The algorithm used to estimate the phase of an eigenvector of a unitary operator.
+
+8. Practical Uses and Future
+   BUCKET: Applications
+   DESCRIPTION: The near-term and long-term uses of quantum hardware.
+   ATOMIC_CONCEPTS:
+     - Quantum Cryptography — Secure communication methods like QKD.
+     - Quantum Chemistry Simulation — Calculating molecular structures and reaction rates.
+     - NISQ Era — Noisy Intermediate-Scale Quantum computing and its limitations.
+
+CROSS_DOMAIN_FIELDS:
+- Cryptography: Public key cryptography is directly threatened by quantum algorithms.
+- Materials Science: Simulation of new materials at the quantum level.
+- Linear Algebra: The mathematical foundation of all quantum state operations.
+- Thermodynamics: The energy requirements and cooling limits of physical qubits.
+- Information Theory: The generalization of Shannon entropy to von Neumann entropy.
+
+KEY_FIGURES:
+- Richard Feynman: Proposed using quantum systems to simulate physics.
+- David Deutsch: Described the first universal quantum computer.
+- Peter Shor: Discovered the efficient quantum algorithm for factoring integers.
+- Lov Grover: Created the quantum search algorithm.
+- John Bell: Proved that quantum entanglement cannot be explained by local hidden variables.
+- Charles Bennett: Co-invented quantum cryptography and quantum teleportation.
+- Alain Aspect: Experimentally proved Bell's theorem.
+- John Preskill: Coined the term NISQ (Noisy Intermediate-Scale Quantum).
+
+KEY_CONCEPTS_GLOSSARY:
+- Feynman's Proposal: The initial idea of using quantum systems to simulate quantum physics.
+- Turing Machine Extension: The generalization of the Church-Turing thesis to quantum mechanics.
+- Quantum Supremacy Concept: The theoretical threshold where quantum computers outperform classical ones.
+- Superposition: The ability of a quantum system to exist in multiple states simultaneously.
+- Quantum Entanglement: The non-local correlation between separated quantum particles.
+- Quantum Interference: The ability of probability amplitudes to cancel or reinforce each other.
+- The Qubit: The basic unit of quantum information compared to classical bits.
+- Bloch Sphere: The geometric representation of the pure state space of a two-level quantum mechanical system.
+- Mixed States: Statistical ensembles of pure quantum states.
+- Superconducting Qubits: Qubits based on cryogenic macroscopic electrical circuits.
+- Trapped Ion Qubits: Qubits based on atomic ions suspended by electromagnetic fields.
+- Topological Qubits: Theoretical qubits protected by topological properties of matter.
+- Pauli Gates: The fundamental single-qubit rotations (X, Y, Z).
+- Hadamard Gate: The gate used to create equal superpositions.
+- CNOT Gate: The fundamental two-qubit entangling gate.
+- Decoherence: The loss of quantum coherence due to environmental interaction.
+- Shor Code: The first quantum error correcting code.
+- Surface Codes: Topological error correction codes suited for 2D physical layouts.
+- Shor's Algorithm: The polynomial-time quantum algorithm for integer factorization.
+- Grover's Algorithm: The quantum algorithm for unstructured search providing quadratic speedup.
+- Quantum Phase Estimation: The algorithm used to estimate the phase of an eigenvector of a unitary operator.
+- Quantum Cryptography: Secure communication methods like QKD.
+- Quantum Chemistry Simulation: Calculating molecular structures and reaction rates.
+- NISQ Era: Noisy Intermediate-Scale Quantum computing and its limitations.
+- Measurement: The collapse of a quantum state into a classical basis state.
+- Quantum Teleportation: The transfer of a quantum state over arbitrary distances using entanglement.
+MAPPER_DONE

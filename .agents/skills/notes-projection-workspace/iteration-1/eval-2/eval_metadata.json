@@ -1,0 +1,27 @@
+{
+  "eval_id": 2,
+  "eval_name": "fresh-projection-quantum",
+  "prompt": "Make notes on Quantum Computing in the vault path /home/ali/v2/.agents/skills/notes-projection-workspace/iteration-1/eval-2/with_skill/outputs",
+  "assertions": [
+    {
+      "name": "has_index_file",
+      "type": "path_exists",
+      "target": "quantum-computing-Index.md"
+    },
+    {
+      "name": "has_moc_files",
+      "type": "paths_exist",
+      "target": [
+        "quantum-computing/_MOC/foundations.md",
+        "quantum-computing/_MOC/mechanisms.md",
+        "quantum-computing/_MOC/applications-implications.md"
+      ]
+    },
+    {
+      "name": "has_concept_notes",
+      "type": "minimum_file_count",
+      "target": "quantum-computing/**/*.md",
+      "count": 20
+    }
+  ]
+}

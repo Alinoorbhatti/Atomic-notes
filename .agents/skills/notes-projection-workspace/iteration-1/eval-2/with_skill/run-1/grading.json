@@ -1,0 +1,25 @@
+{
+  "expectations": [
+    {
+      "text": "has_index_file",
+      "passed": true,
+      "evidence": "Path quantum-computing-Index.md exists: True"
+    },
+    {
+      "text": "has_moc_files",
+      "passed": false,
+      "evidence": "All paths exist: False. Missing: ['quantum-computing/_MOC/mechanisms.md', 'quantum-computing/_MOC/applications-implications.md']"
+    },
+    {
+      "text": "has_concept_notes",
+      "passed": true,
+      "evidence": "Found 26 files matching quantum-computing/**/*.md, expected at least 20."
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 1,
+    "total": 3,
+    "pass_rate": 0.6666666666666666
+  }
+}
